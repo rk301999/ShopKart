@@ -1,6 +1,8 @@
-import express from "express"
-import proxy from "express-http-proxy"
-import cors from "cors"
+
+const express = require("express")
+const proxy = require("express-http-proxy")
+const cors = require("cors")
+
 const port = process.env.PORT || 8000
 
 const app = express();
