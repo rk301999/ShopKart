@@ -11,4 +11,8 @@ module.exports = {
   PORT: process.env.PORT,
   DB_URL: process.env.MONGODB_URI,
   APP_SECRET: process.env.APP_SECRET,
+  MESSAGE_BROKER_URL: process.env.MESSAGE_BROKER_URL,
+  EXCHANGE_NAME: "GROCERY_SHOPPING",
+  CUSTOMER_BINDING_KEY: "customer_service",
+  SHOPPING_BINDING_KEY: "shopping_service",
 };
